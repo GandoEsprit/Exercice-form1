@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Exercice form</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header>
+            <h1>Profil</h1>
+            <h3>Information for yourself</h3>
+        </header>
+            <form method="POST" action="">
+                <fieldset>
+                    <legend>Personal informations</legend>
+                    <p>
+                        <label for="name">Firstname</label>
+                        <input type="text" placeholder="Ex : Gando" id = "name" name="firstname">
+                    </p>
+                    <p>
+                        <label for="lastname">Lastname</label>
+                        <input type="text" placeholder="Ex : Diallo" name="lastname">
+                    </p>
+                    <p>
+                        <label for="surname">Surname</label>
+                        <input type="text" placeholder="Ex : Esprit" name="surname">
+                    </p>
+                    <p>
+                        <label>Sex</label>
+                        <input type="button" value="W">
+                        <input type="button" value="M">
+                    </p>
+                    <p>
+                        <label for="country">Country</label>
+                        <input type="button" value="GN">
+                        <input type="button" value="IT">
+                        <input type="button" value="FR">
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Contact</legend>
+                    <p>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </p>
+                    <p>
+                        <label for="mobil">Mobile</label>
+                        <input type="tel" id="mobil" name="mobile" placeholder="optional">
+                    </p>
+                    <p>
+                        <label for="other">Other Number</label>
+                        <input type="tel" id="other" name="other" placeholder="optional">
+                    </p>
+                    <p>
+                        <label for="fax">Fax</label>
+                        <input type="tel" id="fax" name="fax" placeholder="optional">
+                    </p>
+                    <p>
+                        <label for="mail1">Mail 1</label>
+                        <input type="email" id="mail1" name="mail1" required>
+                    </p>
+                    <p>
+                        <label for="mail2">Mail 2</label>
+                        <input type="email" id="mail2" name="mail2">
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Personal adress</legend>
+                    <p>
+                        <label for="firma">Firma</label>
+                        <input type="text" id="firma" name="firma" required>
+                    </p>
+                    <p>
+                        <label for="firma2">Second Firma</label>
+                        <input type="text" id="firma2" name="firma2" placeholder="optional">
+                    </p>
+                    <p>
+                        <label for="homepage">Homepage</label>
+                        <input type="text" id="homepage" name="homepage" placeholder="optional">
+                    </p>
+                    <p>
+                        <label for="adress">Adress/Number</label>
+                        <input type="text" id="adress" name="adress" placeholder="Mustertras">
+                        <input type="number" name="number" placeholder="33">
+                    </p>
+                    <p>
+                        <label for="zuzatadress">Zusatz Adress</label>
+                        <input type="text" id="zuzatadress" name="zuzatadress" placeholder="optional">
+                    </p>
+                    <p>
+                        <label for="postfash">Postfach</label>
+                        <input type="text" id="postfash" name="postfash" placeholder="optional">
+                    </p>
+                    <p>
+                        <label for="plz">PLZ/Ort</label>
+                        <input type="number" id="plz" name="plz" placeholder="8800">
+                        <input type="text" name="ort" placeholder="Mustertad">
+                    </p>
+                    <p>
+                        <label for="kanton">Kanton/Land</label>
+                        <input type="text" id="kanton" name="kanton" placeholder="ZH">
+                        <input type="text" name="land" placeholder="Schweiz">
+                    </p>
+                    <p><input type="submit" value="To Send"></p>
+                </fieldset>
+            </form>
+    </body>
+</html>
